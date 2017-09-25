@@ -1,0 +1,23 @@
+/*
+ * Add any global styles here
+ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #dedede;
+}
+
+main#app {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.app {
+  composes: box from './common/layout.css';
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-smoothing: antialiased;
+}
